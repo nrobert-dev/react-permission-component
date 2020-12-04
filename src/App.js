@@ -4,8 +4,8 @@ import PermissionWrapper from "./PermissionComponent";
 const App = () => {
     return(
         <div>
-            <PermissionWrapper requiredPermissions={{hasItem : true, hasFreedom : true}} permissions={{hasBada : true, hasItem : true}}  orOperatorActive={true} disallowedComponent={<h1>Not available</h1>}>
-                <h1>Available!</h1>
+            <PermissionWrapper requiredPermissions={{hasAdmin : true}} permissions={{hasAdmin : true}}  orOperatorActive={true} disallowedComponent={<h1>You are a pleb</h1>}>
+                <h1>You have admin access 📜!</h1>
             </PermissionWrapper>
         </div>
     )

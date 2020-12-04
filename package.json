@@ -1,6 +1,6 @@
 {
   "name": "react-permission-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple react component which displays its contents only when it meets the required permissions.",
   "main": "dist/bundle.js",
   "scripts": {
@@ -12,7 +12,11 @@
     "react"
   ],
   "author": "Nechitelea Robert (nrobertdev)",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrobert-dev/react-permission-component"
+  },
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
